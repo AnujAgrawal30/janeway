@@ -25,7 +25,8 @@ ORCID_CLIENT_ID = ''
 # Default Langague
 LANGUAGE_CODE = 'en'
 
-URL_CONFIG = 'domain'  # path or domain
+# URL_CONFIG = 'domain'  # path or domain
+ROOT_URLCONf = "core.urls"
 
 DATABASES = {
     'default': {
