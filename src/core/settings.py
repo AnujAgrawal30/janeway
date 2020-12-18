@@ -34,7 +34,7 @@ DATABASES = {
         #   mysql:      'django.db.backends.sqlite
         #   postgres:   'django.db.backends.postgres
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
+        'NAME': 'janeway',
         'USER': '',
         'PASSWORD': '',
         'HOST': '',
