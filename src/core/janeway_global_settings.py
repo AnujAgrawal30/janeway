@@ -174,7 +174,7 @@ SETTINGS_EXPORT = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
-DEFAULT_HOST = 'https://www.example.org'  # This is the default redirect if no other sites are found.
+# DEFAULT_HOST = 'https://www.example.org'  # This is the default redirect if no other sites are found.
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
