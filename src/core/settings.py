@@ -4,7 +4,7 @@
 SECRET_KEY = 'uxprsdhk^gzd-r=_287byolxn)$k6tsd8_cepl^s^tms2w1qrv'
 
 # This is the default redirect if no other sites are found.
-# DEFAULT_HOST = 'https://www.example.org'
+DEFAULT_HOST = 'http://167.71.236.236'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 LOGIN_REDIRECT_URL = '/user/profile/'
 
