@@ -38,6 +38,8 @@ def get_site_resources(request):
     try: # try journal site
         if settings.URL_CONFIG == 'path':
             code = request.path.split('/')[1]
+            print("*********************")
+            print("Going to:", request.path)
             journal = journal_models.Journal.objects.get(code=code)
             press = journal.press
         elif settings.URL_CONFIG == 'domain':
