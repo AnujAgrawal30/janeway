@@ -30,7 +30,7 @@ markdown2
 mock
 mysqlclient
 pdfkit
-Pillow==6.2.0
+Pillow
 psycopg2-binary
 pyasn1==0.1.9
 pycparser==2.14
