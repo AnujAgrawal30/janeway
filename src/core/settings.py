@@ -32,22 +32,22 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DATABASES = {
-    # 'default': {
-    #     #Example ENGINEs:
-    #     #   sqlite:     'django.db.backends.sqlite
-    #     #   mysql:      'django.db.backends.sqlite
-    #     #   postgres:   'django.db.backends.postgres
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'janeway',
-    #     'USER': '',
-    #     'PASSWORD': '',
-    #     'HOST': '',
-    #     'PORT': '',
-    #     'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB'},
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'janeway.sqlite3'),
+        #Example ENGINEs:
+        #   sqlite:     'django.db.backends.sqlite
+        #   mysql:      'django.db.backends.sqlite
+        #   postgres:   'django.db.backends.postgres
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'janeway',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+        'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB'},
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'janeway.sqlite3'),
+    # }
 }
 
